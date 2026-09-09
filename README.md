@@ -399,3 +399,5 @@ Interested in:
 This project was created for educational and portfolio purposes.
 
 © 2026 Meridian Academy. All rights reserved.
+
+Live Demo: meridian-academy-rkpo.vercel.app
