@@ -4,6 +4,7 @@ A modern, responsive, and premium educational academy website designed to provid
 
 Built with **Next.js, TypeScript, Tailwind CSS, and Framer Motion**, the website focuses on clean UI/UX, smooth animations, responsive layouts, and an elegant academic visual identity.
 
+live Demo: https://meridian-academy-rkpo.vercel.app/
 ---
 
 ## ✨ Features
