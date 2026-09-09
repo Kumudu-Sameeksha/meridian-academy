@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{--ink:#102344;--gold:#c7a15a;--cream:#f8f5ed;--mist:#eefaf7}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+::selection{background:#c7a15a;color:#102344}
+.container-x{width:min(1180px,calc(100% - 48px));margin-inline:auto}
+.serif{font-family:Georgia,'Times New Roman',serif}
+.gold-line{width:42px;height:2px;background:var(--gold);margin:0 auto 14px}
+.btn-gold{display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:var(--ink);padding:13px 22px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;transition:transform .25s,box-shadow .25s,background .25s}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 10px 25px rgba(199,161,90,.28);background:#d4b16b}
+.btn-outline{display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.65);color:#fff;padding:12px 20px;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;transition:.25s}
+.btn-outline:hover{background:#fff;color:var(--ink)}
+.card{background:#fff;border:1px solid #eeeae1;transition:transform .3s,box-shadow .3s,border-color .3s}
+.card:hover{transform:translateY(-7px);box-shadow:0 18px 40px rgba(16,35,68,.10);border-color:#e3d4b5}
